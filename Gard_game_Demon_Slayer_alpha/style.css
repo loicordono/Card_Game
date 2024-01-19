@@ -1,0 +1,64 @@
+body {
+  background-image: url("img/bg2.jpg");
+  /* background-color: rgb(58, 52, 52); */
+  padding-left: 50px;
+  padding-right: 50px;
+}
+#grid {
+  position: absolute;
+  top: 200px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2vh;
+  /* border: 5px ridge #F73E35;
+    border-radius: 0px 40px 0px 40px; */
+}
+#testTanji {
+  position: relative;
+  z-index: 1;
+  display: block;
+  margin: auto;
+  visibility: hidden;
+}
+#logo {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 150px;
+}
+#logoImg {
+  width: 200px;
+  height: 200px;
+}
+.imgcards {
+  /* width: 236px; */
+  /*  height: 354px; */
+  width: 170px;
+  height: 230px;
+  border-radius: 5%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.gotpair {
+  position: relative;
+  top: -595px;
+  right: -700px;
+}
+#matchFound {
+  height: 0px;
+  width: 0px;
+}
+#result {
+  display: flex;
+  justify-content: center;
+  color: white;
+  gap: 50px;
+}
+#countdown {
+  display: flex;
+  justify-content: end;
+  color: white;
+  font-size: 2em;
+}
